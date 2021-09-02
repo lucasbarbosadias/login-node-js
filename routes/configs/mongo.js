@@ -1,10 +1,5 @@
 import mongoose from 'mongoose'
 
-// const params = {
-//   'userNewUrlParser': true,
-//   'useUnifiedTopology': true
-// }
-
 const { MONGODB } = process.env
 
 mongoose.connect(MONGODB)
